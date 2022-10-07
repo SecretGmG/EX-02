@@ -5,7 +5,7 @@ public class AdditionExercise {
 	
 	public static void main(String[] args) {
 		
-		IntQuestionAnswerPair additionProblem = GetAdditionProblem(20);
+		IntQuestionAnswerPair additionProblem = GetAdditionProblem(21); //the bound is exclusive
 		
 		if(additionProblem.Prompt()) {
 			System.out.println("Good Job!");
@@ -17,18 +17,19 @@ public class AdditionExercise {
 		}
 	}
 	
-	
 	public static IntQuestionAnswerPair GetAdditionProblem(int bound) {
 		Random rand = new Random();
 		int a = rand.nextInt(bound);
-		int b = rand.nextInt(20-a);
+		int b = rand.nextInt(bound-a);
 		
-		int c = a+b;
-		
+		//for any a,   b < bound-a
+		//therefore  a+b < a+bound-a 
+		//therefore  a+b < bound
+				
 		IntQuestionAnswerPair additionProblem = new IntQuestionAnswerPair();
 		
 		additionProblem.question = String.format("Please calculate %d + %d",a, b);
-		additionProblem.answer = c;
+		additionProblem.answer = a+b;
 		
 		return additionProblem;		
 	}

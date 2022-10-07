@@ -22,6 +22,7 @@ public class Rectangle {
 		System.out.println(
 				String.format("This rectangles perimeter is %.4f", rect.ComputePerimeter())
 				);
+		
 		if(rect.IsSquare()) {
 			System.out.println("The rectangle you defined is actually a square!");
 		}

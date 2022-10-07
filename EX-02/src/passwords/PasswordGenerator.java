@@ -28,12 +28,18 @@ public class PasswordGenerator {
 				
 		StringBuilder password = new StringBuilder();
 		
+		//F L1 L2 L3 L4 L5 ### -- this should be the end result
+		
+		//F
 		password.append(firstName.charAt(0));
+		
+		//F L1 L2 L3 L4 L5
 		for(int i = 0; i<5; i++) {
 			password.append(lastName.charAt(i));
 		}
-		Random rand = new Random();
 		
+		//F L1 L2 L3 L4 L5 ### -- we are done!
+		Random rand = new Random();
 		password.append(rand.nextInt(1000));
 		
 		return password.toString();
