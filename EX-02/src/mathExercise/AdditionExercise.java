@@ -15,7 +15,6 @@ public class AdditionExercise {
 					String.format("Wrong! the correct answer would have been %s", additionProblem.answer)
 					);
 		}
-		
 	}
 	
 	
