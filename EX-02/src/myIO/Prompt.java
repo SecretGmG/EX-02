@@ -13,4 +13,9 @@ public class Prompt {
 		System.out.println(text);
 		return scanner.nextDouble();
 	}
+	public static String PromptString(String text) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println(text);
+		return scanner.next();
+	}	
 }
