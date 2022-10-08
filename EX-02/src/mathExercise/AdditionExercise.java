@@ -5,8 +5,8 @@ import myIO.Prompt;
 
 public class AdditionExercise {	
 	
-	public String question;
-	public int answer;
+	String question;
+	int answer;
 	
 	
 	public static void main(String[] args) {
