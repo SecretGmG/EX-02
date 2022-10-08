@@ -6,8 +6,8 @@ import myIO.Prompt;
 public class PasswordGenerator {
 
 	public static void main(String[] args) {
-		String firstName = Prompt.PromptString("Please enter your first name");
-		String lastName = Prompt.PromptString("Please enter your last name");
+		String firstName = Prompt.PromptString("Please enter your first name:");
+		String lastName = Prompt.PromptString("Please enter your last name:");
 		System.out.println(
 				"Here is your automatically generated Password:\n" +
 				GenerateFromFullName(firstName, lastName)
@@ -22,7 +22,7 @@ public class PasswordGenerator {
 		//or generate a password with another procedure
 		if(firstName.length() < 1 || lastName.length() < 5) {
 			System.out.println("first or lastName is not long enough, an empty string was generated!");
-			System.out.println("try entering a last name at least 5 characters long");
+			System.out.println("Try entering a last name at least 5 characters long");
 			return "";
 		}
 				

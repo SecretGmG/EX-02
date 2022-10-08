@@ -3,6 +3,8 @@ package myIO;
 import java.util.Scanner;
 
 public class Prompt {
+	
+	//Scanners of System.in do/should not need to be closed
 	public static int PromptInt(String text) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println(text);
