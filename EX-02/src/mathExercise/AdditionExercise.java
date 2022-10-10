@@ -37,7 +37,7 @@ public class AdditionExercise {
 		}
 	}
 		
-	//Asks the user the question and compares it to the result
+	//Asks the user the question and compares it to the result of the user
 	public boolean Prompt() {
 		return answer == Prompt.PromptInt(question);
 	}
