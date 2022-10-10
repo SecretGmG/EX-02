@@ -33,7 +33,6 @@ public class PasswordGenerator {
 		//F
 		password.append(firstName.charAt(0));
 		
-password.append(lastName.subString(0,5));
 		//F L1 L2 L3 L4 L5
 		password.append(lastName.substring(0,5));
 		
