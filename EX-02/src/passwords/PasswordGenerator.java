@@ -18,7 +18,9 @@ public class PasswordGenerator {
 		
 		//Early return to avoid an out of bounds error
 		//To keep it simple I decided to return an empty String
-		//Another option would have been to throw an error,
+		//Another option would have been to:
+		//generate a shorter password (ignoring the missing characters)
+		//throw an error,
 		//or generate a password with another procedure
 		if(firstName.length() < 1 || lastName.length() < 5) {
 			System.out.println("First or lastName is not long enough, an empty string was generated!");

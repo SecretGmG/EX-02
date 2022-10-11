@@ -27,7 +27,7 @@ public class Rectangle {
 			System.out.println("The rectangle you defined is actually a square!");
 		}
 		else {
-			System.out.println("Your rectangle is not a Square!");
+			System.out.println("Your rectangle is not a square!");
 		}		
 	}
 	
