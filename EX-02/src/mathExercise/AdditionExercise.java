@@ -19,8 +19,7 @@ public class AdditionExercise {
 		int a = rand.nextInt(answer+1); //inclusive
 		int b = answer-a;
 		
-		question = String.format("Please calculate %d + %d",a, b);
-		answer = a+b;	
+		question = String.format("Please calculate %d + %d",a, b);	
 	}
 	
 	public static void main(String[] args) {
