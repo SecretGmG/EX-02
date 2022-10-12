@@ -13,7 +13,7 @@ public class Rectangle {
 	public static void main(String[] args) {
 		double x = Prompt.PromptDouble("Enter the width of a rectangle");
 		double y = Prompt.PromptDouble("Enter the height of arectangle");
-		
+				
 		Rectangle rect = new Rectangle(x,y);
 		
 		System.out.println(
