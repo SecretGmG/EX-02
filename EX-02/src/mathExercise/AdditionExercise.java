@@ -1,6 +1,7 @@
+//Sigrist Cedric 22-120-844
+//Moritz Scholz 22-122-071
 package mathExercise;
 import java.util.Random;
-
 import myIO.Prompt;
 
 public class AdditionExercise {	

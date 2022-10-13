@@ -1,3 +1,5 @@
+//Sigrist Cedric 22-120-844
+//Moritz Scholz 22-122-071
 package shapes;
 import myIO.Prompt;
 public class Rectangle {
