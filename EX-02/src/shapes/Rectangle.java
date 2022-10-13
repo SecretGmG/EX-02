@@ -17,10 +17,10 @@ public class Rectangle {
 		Rectangle rect = new Rectangle(x,y);
 		
 		System.out.println(
-				String.format("This rectganles area is %.4f", rect.ComputeArea())
+				String.format("This rectganles area is %.3f", rect.ComputeArea())
 				);
 		System.out.println(
-				String.format("This rectangles perimeter is %.4f", rect.ComputePerimeter())
+				String.format("This rectangles perimeter is %.3f", rect.ComputePerimeter())
 				);
 		
 		if(rect.IsSquare()) {
